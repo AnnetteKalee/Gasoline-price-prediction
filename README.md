@@ -5,6 +5,7 @@
 
 ## Project Overview
 
+This projects aims to uncover patterns in historical pricing data for gasoline business stakeholders.To assit in stretegic decidion making, optimizing pricing startegies for energy-related businesses, and contribute to effective polic making related to energy efficiency, sustnainability and economic statbility in gasoline prices.
 
 
 ### Business Problem
