@@ -19,39 +19,32 @@ This projects aims to uncover patterns in historical pricing data for gasoline b
 
 The data was collected from the American Automobile Association (AAA) Daily Fuel Gauge Report, the data spans from October 2007 to November 2023, with varying start dates for some regions.
 
+We utilized data from these columns: New york state, albany, Binghamtom, Buffalo, Nassau, New york City, Rochester, Syracuse, Utica
 
 ## Modeling
 
-1. 
-
-
-
-3. 
-
-
-
++ We employed the ARIMA model to fit our data, which includes training the model on historical time series data to capture patterns and relationships.
 Our ARIMA model performed relatively well with mean squared errors of as low as 0.0233 t0 0.0311 accross the cities as shown below
   
-5.   CITY                         MSE                       BEST ORDER
 
-     New york state               0.0251                 (2,0,2)
+
+ City:      New york state  ,               mse:    0.0251  ,              Best order:   (2,0,2)
      
+ City:      Albany  ,                       mse:    0.0255  ,              Best order:   (2,0,2)
 
-     Albany                       0.0255                 (2,0,2)
+ City:      Binghamtom   ,                  mse:    0.0259   ,             Best order:   (2,0,2)
 
-     Binghamtom                   0.0259                 (2,0,2)
+  City:     Buffalo    ,                    mse:    0.0244   ,             Best order:    (2,0,0)
 
-     Buffalo                      0.0244                 (2,0,0)
-
-     Nassau                       0.0311                 (2,0,2)
+  City:     Nassau    ,                     mse:    0.0311    ,           Best order:    (2,0,2)
      
-     New york city                0.0281                  (2,0,2)
+  City:     New york city   ,               mse:    0.0281    ,           Best order:     (2,0,2)
 
-     Rochester                    0.0236                 (2,0,2)
+  City:     Rochester    ,                  mse:    0.0236    ,           Best order:     (2,0,2)
 
-     Syracuse              0.0265       (2,0,1)
+  City:     Syracuse    ,                   mse:   0.0265      ,          Best order:    (2,0,1)
 
-     Utica                 0.0233       (2,0,2)
+   City:    Utica       ,                   mse:   0.0233       ,         Best order:     (2,0,2)
      
    ![image]()
 ## Conclusion
