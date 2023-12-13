@@ -10,14 +10,14 @@ This projects aims to uncover patterns in historical pricing data for gasoline b
 
 ### Business Problem
 
-
++  Which is the best city for gasoline service providers to invest to invest in?
++ What are the trends in gasoline prices in different cities?
 
 
 
 ### The Data
 
-
-
+The data was collected from the American Automobile Association (AAA) Daily Fuel Gauge Report, the data spans from October 2007 to November 2023, with varying start dates for some regions.
 
 
 ## Modeling
@@ -30,40 +30,47 @@ This projects aims to uncover patterns in historical pricing data for gasoline b
 
 
 
-4.
+Our ARIMA model performed relatively well with mean squared errors of as low as 0.0233 t0 0.0311 accross the cities as shown below
+  
+5.   CITY                         MSE                       BEST ORDER
 
+     New york state               0.0251                 (2,0,2)
+     
 
+     Albany                       0.0255                 (2,0,2)
 
+     Binghamtom                   0.0259                 (2,0,2)
 
+     Buffalo                      0.0244                 (2,0,0)
 
+     Nassau                       0.0311                 (2,0,2)
+     
+     New york city                0.0281                  (2,0,2)
 
-5. Most important data features.
+     Rochester                    0.0236                 (2,0,2)
 
+     Syracuse              0.0265       (2,0,1)
 
-
-
-   
+     Utica                 0.0233       (2,0,2)
+     
    ![image]()
 ## Conclusion
-
 The model predictions were useful in this contexts:
-+ 
-+
-+ 
-+ 
++ Consistency in Gasoline Price Trends: The analysis reveals a consistent and parallel trend in gasoline prices across all cities under consideration. This suggests that external factors affecting gasoline prices, such as global market trends, economic conditions, or geopolitical events, have a uniform impact on retail prices in these cities.
+
++ Common Influencing Factors:The observed similarity in trends implies that there are factors influencing gasoline prices that affect all cities simultaneously. These could include macroeconomic indicators, changes in oil prices, or government policies that uniformly impact the retail pricing structure across different regions.
+
++ Global Market Dynamics: The uniform trend in gasoline prices may be indicative of the interconnectedness of global markets. Fluctuations in international oil prices and market dynamics seem to propagate uniformly, impacting the retail prices of gasoline in various cities.
+
++ Economic Implications: Understanding the consistent trend in gasoline prices across cities can have implications for economic forecasting and policy planning. Decision-makers can use this information to anticipate the potential effects of global economic changes on local economies and consumer behavior related to fuel consumption.
+
++ Consumer Behavior and Sensitivity:The uniformity in gasoline price trends may reflect a shared sensitivity among consumers in different cities to changes in fuel costs. This insight could be valuable for businesses, policymakers, and researchers studying consumer behavior and preferences related to energy expenditures.
 
 ## Recommendations
 
-This analysis leads to these recommendations for SyriaTel:
+This analysis leads to these recommendations:
 
-+ 
-+
-+ 
-+ 
-### Limitations
++ Data Quality and Generalizability:The consistency in trends raises questions about the generalizability of the model and the quality of the data used. Further investigation into the robustness of the model and potential outliers or anomalies in the dataset may provide additional insights.
 
-+
-+ 
-+ 
-+ 
-+ 
++ Future Research Directions: The discovery of a common trend in gasoline prices across cities opens avenues for future research. Exploring the specific factors driving this consistency and delving deeper into regional variations could contribute to a better understanding of the dynamics affecting fuel prices.
+
